@@ -102,10 +102,10 @@ function App() {
                 clipRule="evenodd"
               />
             </svg>
-            React FireChat
+            Family chat
           </h2>
           <p className="mb-8 text-lg text-center">
-            The easiest way to chat with people all around the world.
+            Le moyen le plus simple de discuter avec les membres de ta famille.
           </p>
           <button
             onClick={signInWithGoogle}
@@ -151,7 +151,7 @@ function App() {
         style={{ height: 'var(--topbar-height)' }}
       >
         <a href="https://alterclass.io/courses/react">
-          <img src={brandLogo} alt="Familly chat" width={150} />
+          <img src={brandLogo} alt="Family chat" width={150} />
         </a>
         <div className="flex items-center">
           {user ? (
@@ -159,7 +159,7 @@ function App() {
               onClick={signOut}
               className="uppercase text-sm font-medium text-primary-500 hover:text-white tracking-wide hover:bg-primary-500 bg-transparent rounded py-2 px-4 mr-4 focus:outline-none focus:ring focus:ring-primary-500 focus:ring-opacity-75 transition-all"
             >
-              Sign out
+              Déconnexion
             </button>
           ) : null}
           <ThemeIcon

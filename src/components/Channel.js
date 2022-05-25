@@ -55,11 +55,11 @@ const Channel = ({ user = null }) => {
         <div className="py-4 max-w-screen-lg mx-auto">
           <div className="border-b dark:border-gray-600 border-gray-200 py-8 mb-4">
             <div className="font-bold text-3xl text-center">
-              <p className="mb-1">Welcome to</p>
-              <p className="mb-3">React FireChat</p>
+              <p className="mb-1">Bienvenue sur</p>
+              <p className="mb-3">Family chat</p>
             </div>
             <p className="text-gray-400 text-center">
-              This is the beginning of this chat.
+              C'est le début de cette discussion.
             </p>
           </div>
           <ul>
@@ -86,7 +86,7 @@ const Channel = ({ user = null }) => {
             type="text"
             value={newMessage}
             onChange={handleOnChange}
-            placeholder="Type your message here..."
+            placeholder="Tapez votre message ici..."
             className="flex-1 bg-transparent outline-none"
           />
           <button
